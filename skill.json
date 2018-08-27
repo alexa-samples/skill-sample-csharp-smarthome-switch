@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Smart Home Skill - C# - Switch",
+          "examplePhrases": [],
+          "name": "skill-sample-csharp-smarthome-switch",
+          "description": "A sample Smart Home skill that implements a virtual switch in C#."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "smartHome": {
+        "endpoint": {
+          "sourceDir": "AlexaSmartHomeLambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
